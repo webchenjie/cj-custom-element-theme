@@ -1,4 +1,4 @@
-# element-theme
+# custom-element-theme
 [![Build Status](https://travis-ci.org/ElementUI/element-theme.svg?branch=master)](https://travis-ci.org/ElementUI/element-theme)
 [![npm](https://img.shields.io/npm/v/element-theme.svg)](https://www.npmjs.com/package/element-theme)
 
@@ -13,7 +13,10 @@
 # node variables === 10.0.0
 npm i
 npm i element-theme -g
+```
 
+## CLI
+```shell
 # 生成 element-variables.scss 文件
 et -i
 
@@ -22,18 +25,6 @@ et
 
 # 增加自定义前缀类名（如果需要）
 npx gulp css-wrap
-```
-
-## CLI
-```shell
-# init variables file
-et --init [file path]
-
-# watch then build
-et --watch [--config variable file path] [--out theme path]
-
-# build
-et [--config variable file path] [--out theme path] [--minimize]
 ```
 
 ## Node API
